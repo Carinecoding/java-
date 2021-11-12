@@ -1,0 +1,28 @@
+Greater/Less Than or Equal To
+
+How could we make sure we got paid at least the amount we expected in our paycheck? We could use greater than or equal to, >=, or less than or equal to, <=!
+
+double paycheckAmount = 620;
+double calculatedPaycheck = 15.50 * 40;
+System.out.println(paycheckAmount >= calculatedPaycheck);
+//this will print true, since paycheckAmount equals calculatedPaycheck
+
+
+public class GreaterThanEqualTo {
+  	public static void main(String[] args){
+      double recommendedWaterIntake = 8;
+      double daysInChallenge = 30;
+      double yourWaterIntake = 235.5;
+      
+      double totalRecommendedAmount = recommendedWaterIntake * daysInChallenge;
+      //喝水挑战: 总喝水量 = 建议水量 x 喝水挑战日总数 
+
+      boolean isChallengeComplete = yourWaterIntake >= totalRecommendedAmount;
+      System.out.println(isChallengeComplete);
+      
+      // 挑战完成 = 你的喝水量 大于等于 推荐喝水量 
+      //打印 挑战完成: false
+      //那是因为 我的喝水总量235.5 是小于  推荐喝水量240。
+      //推荐喝水量是 每天喝水量 x 挑战日总数
+    }       
+}
