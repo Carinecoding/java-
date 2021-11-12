@@ -1,0 +1,24 @@
+We have covered a lot of built-in functionality in Java throughout this lesson. We’ve seen +, -, <, ==, and many other operators. 
+Most of these only work on primitives, but some work on Strings too!
+
+String username = "PrinceNelson";
+System.out.println("Your username is: " + username);
+
+##This code will print:##
+
+Your username is: PrinceNelson
+
+
+
+public class Zoo {
+  	public static void main(String[] args){
+      int animals = 12;
+      String species = "zebra";
+
+      String zooDescription = "Our zoo has " + animals + " " + species + "s!";
+
+      System.out.println(zooDescription);
+    }       
+}
+
+**Our zoo has 12 zebras!**
