@@ -3,8 +3,10 @@
 这里是我学习Java basics的知识记录。
 
 
-LEARN JAVA: MANIPULATING VARIABLES
+**LEARN JAVA: MANIPULATING VARIABLES**
+
 Review
+
 What’s the use of having variables if you can’t do anything with them? We’ve now seen some ways you can operate on variables and compare them. The possibilities are endless!
 
 We covered:
