@@ -1,0 +1,27 @@
+public class Store {
+  // instance fields
+  String productType;
+  
+  // constructor method
+  public Store(String product) {
+    productType = product;
+  }
+  //这里根据要求建立了greenCustomer  Method, 这个Method的Parameter为String Customer
+  public void greetCustomer(String customer){
+ System.out.println("Welcome to the store, " + customer + "!");
+  }
+
+  // advertise method
+  public void advertise() {
+    String message = "Selling " + productType + "!";
+		System.out.println(message);
+  }
+  
+  // main method
+  public static void main(String[] args) {
+    Store lemonadeStand = new Store("Lemonade");
+    
+    lemonadeStand.greetCustomer("Carine");
+    //根据上面我们建立的greetCustomer method, 在这里了call了这个method
+  }
+}
