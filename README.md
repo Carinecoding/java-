@@ -56,3 +56,5 @@ Method Signature of above function:
     max(int x, int y)
 
 **How to name a Method ?**: A method name is typically a single word that should be a **verb** in lowercase or multi-word, that begins with a **verb** in lowercase followed by **adjective, noun…..** After the first word, first letter of each word should be capitalized. For example, findSum, computeMax, setX and getX
+
+[# Java Methods – Detailed Explanation with Example](https://simplesnippets.tech/java-methods-detailed-explanation-with-program-example/)
