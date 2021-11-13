@@ -1,0 +1,55 @@
+public class SavingsAccount {
+  
+  int balance;
+  
+  public SavingsAccount(int initialBalance){
+    balance = initialBalance;
+  }
+  
+  //这下面开始是1-5的解答练习
+  //题1
+  public void checkBalance(){
+    System.out.println("Hello!");
+    System.out.println("Your balance is "+balance);
+  }
+  //题2
+  public void deposit(int amountToDeposit){
+    balance = amountToDeposit + balance;
+    System.out.println("You just deposited " + amountToDeposit);
+  }
+  //题3
+  public int withdraw(int amountToWithdraw){
+    balance = balance - amountToWithdraw;
+    System.out.println("You just withdrew " + balance);
+    return amountToWithdraw;
+  }
+  
+//上面是1-3题的解答练习
+//题4 在main method下面
+  public static void main(String[] args){
+    SavingsAccount savings = new SavingsAccount(2000);
+    
+    //Check balance:
+    savings.checkBalance();
+    
+    //Withdrawing:
+    savings.withdraw(300);
+    
+    //Check balance:
+    savings.checkBalance();
+    
+    //Deposit:
+    savings.deposit(600);
+    
+    //Check balance:
+    savings.checkBalance();
+    
+    //Deposit:
+    savings.deposit(600);
+    
+    //Check balance:
+    savings.checkBalance();
+    
+    System.out.println(savings);
+  }       
+}
